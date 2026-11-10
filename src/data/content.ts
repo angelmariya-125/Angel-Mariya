@@ -179,7 +179,7 @@ export const portfolioContent: PortfolioContent = {
         institution: "Kerala State Higher Secondary Examination Board",
         location: "Kerala, India",
         period: "2023 - 2025",
-        grade: "Distinction (95%+)",
+        grade: "86.5%",
         highlights: [
           "Core subjects: Biology, Mathematics, Physics, and Chemistry.",
           "Developed strong analytical foundations in science and mathematics.",
