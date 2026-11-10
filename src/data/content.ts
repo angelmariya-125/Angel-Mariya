@@ -190,62 +190,8 @@ export const portfolioContent: PortfolioContent = {
 
   works: {
     title: "Selected Works",
-    subtitle:
-      "Curated engineering projects spanning intelligent vision systems, NLP toolkits, and modern full-stack web applications.",
-    projects: [
-      {
-        id: "neuro-vision",
-        title: "NeuroVision AI",
-        tagline: "Explainable Medical Image Classification",
-        description:
-          "An end-to-end deep learning framework designed to assist clinicians in classifying chest X-rays with Grad-CAM visual heatmaps for explainable diagnostic transparency.",
-        tags: ["PyTorch", "Python", "FastAPI", "Next.js", "OpenCV"],
-        metrics: "94.2% Validation Accuracy",
-        category: "AI & ML",
-        githubUrl: "https://github.com/angelmariya/neurovision-ai",
-        liveUrl: "https://neurovision-ai-demo.vercel.app",
-        featured: true,
-      },
-      {
-        id: "malayalam-nlp",
-        title: "Synthetix Indic NLP",
-        tagline: "Multilingual Low-Resource Text Transformer",
-        description:
-          "A fine-tuned transformer pipeline for multilingual sentiment analysis and text summarization focusing on Malayalam and Indian regional dialects.",
-        tags: ["Hugging Face", "Transformers", "PyTorch", "Flask", "TypeScript"],
-        metrics: "88 BLEU Score on Test Corpus",
-        category: "AI & ML",
-        githubUrl: "https://github.com/angelmariya/synthetix-nlp",
-        liveUrl: "https://synthetix-nlp.vercel.app",
-        featured: true,
-      },
-      {
-        id: "campus-flow",
-        title: "CampusFlow Portal",
-        tagline: "Smart Academic Scheduler & Student Knowledge Base",
-        description:
-          "A centralized campus management system with an AI query bot that automates timetable conflict resolution and delivers instantaneous academic announcements.",
-        tags: ["Next.js", "TypeScript", "Tailwind CSS", "PostgreSQL", "Prisma"],
-        metrics: "1,200+ Active Student Queries",
-        category: "Full Stack",
-        githubUrl: "https://github.com/angelmariya/campusflow",
-        liveUrl: "https://campusflow.vercel.app",
-        featured: true,
-      },
-      {
-        id: "aura-lens",
-        title: "Aura Minimalist Commerce",
-        tagline: "AI-Powered Aesthetic Headless Storefront",
-        description:
-          "High-performance editorial e-commerce platform incorporating vector-similarity visual recommendations, instant search, and sleek micro-animations.",
-        tags: ["React", "Next.js", "Tailwind CSS", "Framer Motion", "Stripe API"],
-        metrics: "99+ Lighthouse Score",
-        category: "Full Stack",
-        githubUrl: "https://github.com/angelmariya/aura-commerce",
-        liveUrl: "https://aura-store-demo.vercel.app",
-        featured: false,
-      },
-    ],
+    subtitle: "",
+    projects: [],
   },
 
   game: {

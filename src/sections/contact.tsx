@@ -41,7 +41,7 @@ export function Contact() {
         <div data-reveal className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6 border-b border-[#0a0a0a]/10 dark:border-white/10 pb-6">
           <div>
             <span className="font-mono text-xs uppercase tracking-[0.2em] text-[#737373] dark:text-[#888888]">
-              04 // Connect
+              02 // Connect
             </span>
             <h2 className="font-grotesk text-3xl sm:text-5xl font-semibold tracking-tight text-[#0a0a0a] dark:text-[#f5f5f5] mt-2">
               {portfolioContent.contact.title}

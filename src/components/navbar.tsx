@@ -2,11 +2,11 @@
 
 import React, { useState, useEffect } from "react";
 import { motion, useScroll, useSpring } from "framer-motion";
-import { Moon, Sun, Menu, X, Gamepad2, Sparkles } from "lucide-react";
+import { Moon, Sun, Menu, X } from "lucide-react";
 import { Magnetic } from "./magnetic";
 import { portfolioContent } from "@/data/content";
 
-export function Navbar({ onOpenGameModal }: { onOpenGameModal?: () => void }) {
+export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isDark, setIsDark] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -44,8 +44,6 @@ export function Navbar({ onOpenGameModal }: { onOpenGameModal?: () => void }) {
 
   const navLinks = [
     { name: "About Me", href: "#about" },
-    { name: "Works", href: "#works" },
-    { name: "Play Game", href: "#game", isGame: true },
     { name: "Contact", href: "#contact" },
   ];
 
@@ -88,15 +86,8 @@ export function Navbar({ onOpenGameModal }: { onOpenGameModal?: () => void }) {
               <Magnetic key={link.name} strength={0.25}>
                 <a
                   href={link.href}
-                  onClick={(e) => {
-                    if (link.isGame && onOpenGameModal) {
-                      e.preventDefault();
-                      onOpenGameModal();
-                    }
-                  }}
                   className="px-3.5 py-1.5 text-xs uppercase tracking-wider font-medium text-[#444444] dark:text-[#a0a0a0] hover:text-[#0a0a0a] dark:hover:text-[#ffffff] transition-colors rounded-full hover:bg-black/5 dark:hover:bg-white/10 flex items-center gap-1.5"
                 >
-                  {link.isGame && <Gamepad2 className="w-3 h-3 text-emerald-600 dark:text-emerald-400" />}
                   {link.name}
                 </a>
               </Magnetic>
@@ -152,16 +143,9 @@ export function Navbar({ onOpenGameModal }: { onOpenGameModal?: () => void }) {
               <a
                 key={link.name}
                 href={link.href}
-                onClick={(e) => {
-                  setMobileMenuOpen(false);
-                  if (link.isGame && onOpenGameModal) {
-                    e.preventDefault();
-                    onOpenGameModal();
-                  }
-                }}
+                onClick={() => setMobileMenuOpen(false)}
                 className="text-sm uppercase tracking-wider py-2 font-medium text-[#0a0a0a] dark:text-[#f5f5f5] flex items-center gap-2 border-b border-[#0a0a0a]/5 dark:border-white/5"
               >
-                {link.isGame && <Gamepad2 className="w-4 h-4 text-emerald-500" />}
                 {link.name}
               </a>
             ))}
