@@ -97,7 +97,7 @@ export function Hero() {
           </div>
 
           <p className="text-left sm:text-right font-mono text-[10px] sm:text-xs tracking-normal sm:tracking-[0.14em] text-[#525252] dark:text-[#a3a3a3] uppercase font-medium leading-relaxed max-w-full">
-            <span className="block sm:inline">CS & AI ENGINEERING STUDENT • 3RD YEAR</span>
+            <span className="block sm:inline">CS & AI ENGINEERING STUDENT • 1ST YEAR</span>
             <span className="hidden sm:inline"> • </span>
             <span className="block sm:inline">KERALA, INDIA • OPEN TO INTERNSHIPS</span>
           </p>

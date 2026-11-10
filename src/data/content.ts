@@ -85,7 +85,7 @@ export const portfolioContent: PortfolioContent = {
     role: "Computer Science & AI Engineering Student",
     college: "Thejus Engineering College",
     location: "Kerala, India",
-    academicYear: "3rd Year",
+    academicYear: "1st Year",
     status: "OPEN TO INTERNSHIPS",
     email: "angelmariyadenny07@gmail.com",
     github: "https://github.com/angelmariya",
@@ -101,10 +101,10 @@ export const portfolioContent: PortfolioContent = {
       "into projects that solve real problems.",
     ],
     metaRow:
-      "CS & AI ENGINEERING STUDENT • 3RD YEAR • KERALA, INDIA • OPEN TO INTERNSHIPS",
+      "CS & AI ENGINEERING STUDENT • 1ST YEAR • KERALA, INDIA • OPEN TO INTERNSHIPS",
     ctaPrimary: {
-      text: "View Works",
-      href: "#works",
+      text: "About Me",
+      href: "#about",
     },
     ctaSecondary: {
       text: "Get in Touch",
