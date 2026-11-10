@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import { GraduationCap, MapPin, CheckCircle2, Terminal, Cpu } from "lucide-react";
+import { GraduationCap, MapPin, CheckCircle2 } from "lucide-react";
 import { portfolioContent } from "@/data/content";
 import { useScrollReveal, useTextHighlight } from "@/lib/use-scroll-reveal";
 
@@ -103,34 +103,6 @@ export function About() {
                   ))}
                 </p>
               ))}
-            </div>
-
-            {/* Skills as Minimal Tags */}
-            <div data-reveal className="border-t border-black/10 dark:border-white/10 pt-8">
-              <h3 className="font-mono text-xs uppercase tracking-[0.2em] text-[#737373] dark:text-[#888888] mb-6 flex items-center gap-2">
-                <Terminal className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400" />
-                <span>Technical Repertoire</span>
-              </h3>
-
-              <div className="space-y-6">
-                {portfolioContent.about.skills.map((category, catIdx) => (
-                  <div key={catIdx} className="space-y-2.5">
-                    <span className="text-xs font-semibold text-[#525252] dark:text-[#a3a3a3] uppercase tracking-wider">
-                      {category.name}
-                    </span>
-                    <div className="flex flex-wrap gap-2">
-                      {category.skills.map((skill, sIdx) => (
-                        <span
-                          key={sIdx}
-                          className="px-3 py-1.5 rounded-lg border border-black/10 dark:border-white/15 bg-white dark:bg-[#171717] text-xs font-mono text-[#0a0a0a] dark:text-[#f5f5f5] hover:border-black dark:hover:border-white transition-all hover:-translate-y-0.5 select-none"
-                        >
-                          {skill.name}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                ))}
-              </div>
             </div>
 
             {/* Education Timeline */}
