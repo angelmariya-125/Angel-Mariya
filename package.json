@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev --webpack",
     "build": "next build --webpack",
+    "deploy": "next build --webpack && firebase deploy",
     "start": "next start",
     "lint": "eslint"
   },

@@ -87,7 +87,7 @@ export const portfolioContent: PortfolioContent = {
     location: "Kerala, India",
     academicYear: "3rd Year",
     status: "OPEN TO INTERNSHIPS",
-    email: "angelmariya.cse@gmail.com",
+    email: "angelmariyadenny07@gmail.com",
     github: "https://github.com/angelmariya",
     linkedin: "https://linkedin.com/in/angelmariya",
     resumeUrl: "#contact",
@@ -116,14 +116,11 @@ export const portfolioContent: PortfolioContent = {
     title: "About Me",
     bioParagraphs: [
       "I am an undergraduate engineering student specializing in Computer Science & Artificial Intelligence at Thejus Engineering College in Kerala, India. Driven by curiosity about how intelligent systems can simplify human lives, I combine rigorous theoretical foundations with modern full-stack web engineering.",
-      "My work revolves around machine learning pipelines, natural language processing, and high-performance interactive web interfaces. I enjoy writing clean, semantic code, exploring state-of-the-art AI architectures, and turning challenging problem statements into intuitive, accessible digital experiences.",
-      "When I am not training models or polishing UI interactions, you can find me participating in hackathons, contributing to student developer communities, and reading about emerging AI breakthroughs.",
     ],
     quickStats: [
       { label: "Focus", value: "AI + Full Stack" },
       { label: "Degree", value: "B.Tech CSE (AI)" },
       { label: "University", value: "APJ Abdul Kalam TU" },
-      { label: "Status", value: "Available 2026/2027" },
     ],
     skills: [
       {
@@ -170,8 +167,7 @@ export const portfolioContent: PortfolioContent = {
         degree: "Bachelor of Technology in Computer Science Engineering (Artificial Intelligence)",
         institution: "Thejus Engineering College, APJ Abdul Kalam Technological University",
         location: "Vellarakkad, Thrissur, Kerala, India",
-        period: "2023 - 2027 (Expected)",
-        grade: "First Class with Distinction (Current)",
+        period: "2026 - 2030 (Expected)",
         highlights: [
           "Specialized coursework: Machine Learning, Artificial Intelligence, Data Structures & Algorithms, Database Systems, Computer Networks.",
           "Active participant in technical symposiums, hackathons, and university coding contests.",
@@ -179,14 +175,14 @@ export const portfolioContent: PortfolioContent = {
         ],
       },
       {
-        degree: "Higher Secondary Education (Computer Science & Science Stream)",
+        degree: "Higher Secondary Education (Bio Maths Stream)",
         institution: "Kerala State Higher Secondary Examination Board",
         location: "Kerala, India",
-        period: "2021 - 2023",
+        period: "2023 - 2025",
         grade: "Distinction (95%+)",
         highlights: [
-          "Core subjects: Computer Science, Mathematics, Physics, and Chemistry.",
-          "Developed foundational passion for algorithm design and Python programming.",
+          "Core subjects: Biology, Mathematics, Physics, and Chemistry.",
+          "Developed strong analytical foundations in science and mathematics.",
         ],
       },
     ],

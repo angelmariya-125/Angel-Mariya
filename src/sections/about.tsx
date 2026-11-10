@@ -68,16 +68,12 @@ export function About() {
                     <span className="text-[#666] dark:text-[#999]">Location</span>
                     <span className="font-medium text-[#0a0a0a] dark:text-white">Kerala, India</span>
                   </div>
-                  <div className="flex items-center justify-between text-xs font-mono mt-1.5 pt-1.5 border-t border-black/5 dark:border-white/5">
-                    <span className="text-[#666] dark:text-[#999]">Focus</span>
-                    <span className="text-emerald-600 dark:text-emerald-400 font-semibold">Machine Learning & Web</span>
-                  </div>
                 </div>
               </div>
             </div>
 
             {/* Quick Stats Grid */}
-            <div data-reveal className="grid grid-cols-2 gap-4">
+            <div data-reveal className="grid grid-cols-1 sm:grid-cols-3 gap-3">
               {portfolioContent.about.quickStats.map((stat, idx) => (
                 <div
                   key={idx}
